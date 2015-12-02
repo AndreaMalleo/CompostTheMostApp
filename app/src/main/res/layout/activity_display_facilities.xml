@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#008000"
+    tools:context="com.independentwork.andrea.compostthemost.DisplayFacilitiesActivity" >
+
+    <TextView
+        android:id="@+id/FindFacilities_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/FindFacilities_title"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="3dp">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:id="@+id/table_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="*">
+                </TableLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

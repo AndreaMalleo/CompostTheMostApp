@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.independentwork.andrea.compostthemost.AdvertiseFacilityActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Form_Title"
+            android:text="@string/formTitle">
+            </TextView>
+
+        <EditText
+            android:id="@+id/advertiseFacilityName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/advFacilityName">
+            </EditText>
+
+        <EditText
+            android:id="@+id/advertiseFacilityDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/advFacilityDescrip"
+            android:lines="4">
+        </EditText>
+
+        <EditText
+            android:id="@+id/advertiseFacilityLocation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/advFacilityLoc">
+        </EditText>
+
+        <EditText
+            android:id="@+id/advertiseFacilityContact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/advFacilityContact">
+        </EditText>
+
+    </LinearLayout>
+</RelativeLayout>

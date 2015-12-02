@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">CompostTheMost</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="content_file_provider_authority">com.independentwork.andrea.compostthemost</string>
+    <string name="download_queue_provider_authority">com.amazonaws.mobile.downloader-com.independentwork.andrea.compostthemost</string>
+
+    <string name="main_nav_menu_item_home">Home</string>
+    <string name="title_activity_item_detail">Item Detail</string>
+    <string name="title_activity_item_list">Item List</string>
+    <string name="title_activity_sign_in">Sign-in</string>
+    <string name="button_text_sign_in">SIGN IN</string>
+    <string name="button_text_sign_out">SIGN OUT</string>
+    <string name="content_helper_error_title">No Content Viewer</string>
+    <string name="content_helper_error_no_app">No Viewing App exists for content type \'%s\'.</string>
+    <string name="content_dialog_ok">OK</string>
+
+    <string name="producer_message">Find a composting location</string>
+    <string name="consumer_message">Post your composting location</string>
+    <string name="question_message">Can I compost it?</string>
+    <string name="edit_location">Enter your location</string>
+
+    <string name="action_settings">MyActionSettings</string>
+
+    <string name="button_find">Find</string>
+    <string name="button_post">Post</string>
+    <string name="button_sortlocation">Sort by distance</string>
+    <string name="button_sorteco">Sort by EcoFootprint</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_find_facilities">FindFacilitiesActivity</string>
+    <string name="title_activity_display_facilities">Display Facilities</string>
+    <string name="title_activity_advertise_facility">Post your Composting Site</string>
+    <string name="title_activity_view_facility">Site information</string>
+
+    <string name="FindFacilities_title">Composting Facilities Near You</string>
+
+    <string name="formTitle">Advertise your Composting Facility</string>
+    <string name="advFacilityName">Compost Facility Name</string>
+    <string name="advFacilityDescrip">Post Description:</string>
+    <string name="advFacilityLoc">Location of Site</string>
+    <string name="advFacilityContact">Contact Information</string>
+
+</resources>
